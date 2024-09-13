@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowie Jewellery - Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+ <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-gray-100">
+  <!-- header section strats -->
+  <header class="header_section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <a class="navbar-brand" href="index.html" style="margin-left: -35px; margin-top: -20px;" >
+          <span">
+           <img src="images/logo1.png" alt="" width="160" height="90">
+          </span>
+        </a>
+        <div class="" id="" style="overflow: hidden;">
+          <div class="custom_menu-btn" style="overflow: hidden;">
+            <button onclick="openNav()">
+              <span class="s-1"> </span>
+              <span class="s-2"> </span>
+              <span class="s-3"> </span>
+            </button>
+            <div id="myNav" class="overlay">
+              <img src="images/logo.png" alt="" width="300" height="150" style="margin-left: -30px; ">
+              <div class="overlay-content" style="margin-top:-0px;">
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="cart.html">
+                   <i class="fa fa-cart-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header section -->
+
+    <!-- Main Section -->
+    <main class="" style="margin-top: 200px;">
+        <div class="container">
+            <div class="row">
+                <!-- Search and Filters -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="bg-white border border-gray-200 rounded-lg p-4 shadow-md">
+                        <h3 class="text-lg font-semibold mb-4">Filters</h3>
+                        <input type="text" id="search" class="w-full p-2 border border-gray-300 rounded-lg mb-4" placeholder="Search products...">
+                        <h4 class="text-md font-semibold mb-2">Categories</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-blue-500 hover:text-blue-700">Necklaces</a></li>
+                            <li><a href="#" class="text-blue-500 hover:text-blue-700">Bracelets</a></li>
+                            <li><a href="#" class="text-blue-500 hover:text-blue-700">Rings</a></li>
+                            <li><a href="#" class="text-blue-500 hover:text-blue-700">Earrings</a></li>
+                              <li><a href="#" class="text-blue-500 hover:text-blue-700">Watches</a></li>
+                          </ul>
+                        <label for="customRange1" class="form-label">Price</label>
+                        <input type="range" class="form-range" id="customRange1">
+                         <h4 class="text-md font-semibold mb-2">Colors</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-blue-500 hover:text-blue-700">Gold</a></li>
+                            <li><a href="#" class="text-blue-500 hover:text-blue-700">Siver</a></li>
+                            <li><a href="#" class="text-blue-500 hover:text-blue-700">Bronze</a></li>
+                        </ul>
+                        <h4 class="text-md font-semibold mb-2">Gender</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-blue-500 hover:text-blue-700">Men</a></li>
+                            <li><a href="#" class="text-blue-500 hover:text-blue-700">Female</a></li>
+                            <li><a href="#" class="text-blue-500 hover:text-blue-700">Kids</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12">
+                   <img src="images/o3.jpg" width="100%"/>
+                  <section class="shop_section layout_padding">
+                    <div class="container">
+                      <div class="heading_container heading_center">
+                        <h2>
+                         Our Products
+                        </h2>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                          <div class="box">
+                            <a href="">
+                              <div class="img-box">
+                                <img src="images/p1.png" alt="">
+                              </div>
+                              <div class="white-label">
+                                <i class="fa fa-cart-plus"></i>
+                                <i class="fa fa-heart-o"></i>
+                                <i class="fa fa-share"></i>
+                              </div>
+                              <div class="detail-box">
+                                <h6>
+                                  Necklace
+                                </h6>
+                                <h6>
+                                  <span>
+                                    ugx 12000
+                                  </span>
+                                </h6>
+                              </div>
+                              <div class="new">
+                                <span>
+                                  Hot
+                                </span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                          <div class="box">
+                            <a href="">
+                              <div class="img-box">
+                                <img src="images/p2.png" alt="">
+                              </div>
+                                <div class="white-label">
+                                <i class="fa fa-cart-plus"></i>
+                                <i class="fa fa-heart-o"></i>
+                                <i class="fa fa-share"></i>
+                              </div>
+                              <div class="detail-box">
+                                <h6>
+                                  Necklace
+                                </h6>
+                                <h6>
+                                  <span>
+                                    ugx 45000
+                                  </span>
+                                </h6>
+                              </div>
+                              <div class="new">
+                                <span>
+                                  Hot
+                                </span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                          <div class="box">
+                            <a href="">
+                              <div class="img-box">
+                                <img src="images/p3.png" alt="">
+                              </div>
+                                <div class="white-label">
+                                <i class="fa fa-cart-plus"></i>
+                                <i class="fa fa-heart-o"></i>
+                                <i class="fa fa-share"></i>
+                              </div>
+                              <div class="detail-box">
+                                <h6>
+                                  Necklace
+                                </h6>
+                                <h6>
+                                  
+                                  <span>
+                                    ugx 34000
+                                  </span>
+                                </h6>
+                              </div>
+                              <div class="new">
+                                <span>
+                                  Trending
+                                </span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                          <div class="box">
+                            <a href="">
+                              <div class="img-box">
+                                <img src="images/p4.png" alt="">
+                              </div>
+                                <div class="white-label">
+                                <i class="fa fa-cart-plus"></i>
+                                <i class="fa fa-heart-o"></i>
+                                <i class="fa fa-share"></i>
+                              </div>
+                              <div class="detail-box">
+                                <h6>
+                                  Ring
+                                </h6>
+                                <h6>
+                                  
+                                  <span>
+                                    ugx 15000
+                                  </span>
+                                </h6>
+                              </div>
+                              <div class="new">
+                                <span>
+                                  New
+                                </span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                          <div class="box">
+                            <a href="">
+                              <div class="img-box">
+                                <img src="images/p5.png" alt="">
+                              </div>
+                                <div class="white-label">
+                                <i class="fa fa-cart-plus"></i>
+                                <i class="fa fa-heart-o"></i>
+                                <i class="fa fa-share"></i>
+                              </div>
+                              <div class="detail-box">
+                                <h6>
+                                  Ring
+                                </h6>
+                                <h6>
+                                  
+                                  <span>
+                                    ugx 34000
+                                  </span>
+                                </h6>
+                              </div>
+                              <div class="new">
+                                <span>
+                                  New
+                                </span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                          <div class="box">
+                            <a href="">
+                              <div class="img-box">
+                                <img src="images/p6.png" alt="">
+                              </div>
+                                <div class="white-label">
+                                <i class="fa fa-cart-plus"></i>
+                                <i class="fa fa-heart-o"></i>
+                                <i class="fa fa-share"></i>
+                              </div>
+                              <div class="detail-box">
+                                <h6>
+                                  Earrings
+                                </h6>
+                                <h6>
+                                  <span>
+                                    ugx 24000
+                                  </span>
+                                </h6>
+                              </div>
+                              <div class="new">
+                                <span>
+                                  New
+                                </span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                          <div class="box">
+                            <a href="">
+                              <div class="img-box">
+                                <img src="images/p7.png" alt="">
+                              </div>
+                                <div class="white-label">
+                                <i class="fa fa-cart-plus"></i>
+                                <i class="fa fa-heart-o"></i>
+                                <i class="fa fa-share"></i>
+                              </div>
+                              <div class="detail-box">
+                                <h6>
+                                  Earrings
+                                </h6>
+                                <h6>
+                                
+                                  <span>
+                                    ugx 18000
+                                  </span>
+                                </h6>
+                              </div>
+                              <div class="new">
+                                <span>
+                                  New
+                                </span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                          <div class="box">
+                            <a href="">
+                              <div class="img-box">
+                                <img src="images/p8.png" alt="">
+                              </div>
+                                <div class="white-label">
+                                <i class="fa fa-cart-plus"></i>
+                                <i class="fa fa-heart-o"></i>
+                                <i class="fa fa-share"></i>
+                              </div>
+                              <div class="detail-box">
+                                <h6>
+                                  Necklace
+                                </h6>
+                                <h6>
+                                  
+                                  <span>
+                                    ugx 16000
+                                  </span>
+                                </h6>
+                              </div>
+                              <div class="new">
+                                <span>
+                                  New
+                                </span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="btn-box">
+                       <nav aria-label="Page navigation example">
+                          <ul class="pagination">
+                            <li class="page-item">
+                              <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                              </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                              <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </div>
+                  </section>  
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- end of main -->
+
+
+  <!-- info section -->
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row info_form_social_row">
+        <div class="col-md-8 col-lg-9">
+          <div class="info_form">
+            <form action="">
+              <input type="email" placeholder="Enter your email">
+              <button>
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="social_box">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row info_main_row">
+        <div class="col-md-6 col-lg-4">
+          <div class="info_links">
+            <h4>
+              Menu
+            </h4>
+            <div class="info_links_menu">
+              <a href="index.html">Home</a>
+              <a href="shop.html">Shop</a>
+              <a href="Contact.html">Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <h4>
+            Contact Us
+          </h4>
+          <div class="info_contact">
+            <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Kampala, Uganda
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Call +256 777 996719
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-envelope"></i>
+              <span>
+                glorianassuna715@gmail.com
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <img src="images/logo.png" alt="" width="300" height="150">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="">Glowie Jewellery</a>
+      </p>
+      <b>Designed with ❣️ by <a href="mailto:ayesigapo@gmail.com">Paul Ayesiga</a></b>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button text-gray-500 hover:text-gray-700">&times;</span>
+            <h2 class="text-2xl font-bold mb-4" id="modal-title">Product Title</h2>
+            <img src="images/product1.jpg" alt="Product Image" class="w-full h-64 object-cover mb-4" id="modal-image">
+            <p class="text-gray-600 mb-4" id="modal-description">Product description goes here.</p>
+            <p class="text-gray-800 text-xl font-bold mb-4" id="modal-price">$99.99</p>
+            <button class="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">Add to Cart</button>
+        </div>
+    </div>
+
+
+
+<!-- scripts -->
+
+   <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+
+</body>
+</html>

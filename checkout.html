@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.0/dist/tailwind.min.css" rel="stylesheet">
+       <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+ <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <a href="index.html" class="text-2xl font-bold">
+                <img src="images/logo1.png" alt="logo" width="150" height="140"  />
+            </a>
+            <h1></h1>
+            <a href="/cart" class="text-blue-500 hover:text-blue-700">
+                <a href="cart.html"  id="cartButton" class="text-blue-900 hover:text-purple-300">
+                <i class="fas fa-shopping-cart"></i>
+            </a> 
+            </a>
+        </div>
+    </nav>
+
+    <!-- Checkout Page -->
+    <main class="py-8 px-4">
+        <div class="container mx-auto">
+            <h1 class="text-2xl font-bold mb-6">Checkout</h1>
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-4">
+                <form>
+                    <h2 class="text-xl font-semibold mb-4">Shipping Information</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                        <div>
+                            <label for="name" class="block text-gray-700">Full Name</label>
+                            <input type="text" id="name" class="w-full border border-gray-300 rounded-lg p-2">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700">Email</label>
+                            <input type="email" id="email" class="w-full border border-gray-300 rounded-lg p-2">
+                        </div>
+                        <div>
+                            <label for="address" class="block text-gray-700">Address</label>
+                            <input type="text" id="address" class="w-full border border-gray-300 rounded-lg p-2">
+                        </div>
+                        <div>
+                            <label for="city" class="block text-gray-700">City</label>
+                            <input type="text" id="city" class="w-full border border-gray-300 rounded-lg p-2">
+                        </div>
+                        <div>
+                            <label for="state" class="block text-gray-700">State</label>
+                            <input type="text" id="state" class="w-full border border-gray-300 rounded-lg p-2">
+                        </div>
+                        <div>
+                            <label for="zip" class="block text-gray-700">ZIP Code</label>
+                            <input type="text" id="zip" class="w-full border border-gray-300 rounded-lg p-2">
+                        </div>
+                    </div>
+
+                    <h2 class="text-xl font-semibold mb-4">Payment Information</h2>
+                    <div class="mb-6">
+                        <label for="card-number" class="block text-gray-700">Card Number</label>
+                        <input type="text" id="card-number" class="w-full border border-gray-300 rounded-lg p-2">
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 mb-6">
+                        <div>
+                            <label for="expiry-date" class="block text-gray-700">Expiry Date</label>
+                            <input type="text" id="expiry-date" class="w-full border border-gray-300 rounded-lg p-2">
+                        </div>
+                        <div>
+                            <label for="cvv" class="block text-gray-700">CVV</label>
+                            <input type="text" id="cvv" class="w-full border border-gray-300 rounded-lg p-2">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">Place Order</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+      <!-- info section -->
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row info_form_social_row">
+        <div class="col-md-8 col-lg-9">
+          <div class="info_form">
+            <form action="">
+              <input type="email" placeholder="Enter your email">
+              <button>
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="social_box">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row info_main_row">
+        <div class="col-md-6 col-lg-4">
+          <div class="info_links">
+            <h4>
+              Menu
+            </h4>
+            <div class="info_links_menu">
+              <a href="index.html">Home</a>
+              <a href="shop.html">Shop</a>
+              <a href="Contact.html">Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <h4>
+            Contact Us
+          </h4>
+          <div class="info_contact">
+            <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Kampala, Uganda
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Call +256 777 996719
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-envelope"></i>
+              <span>
+                glorianassuna715@gmail.com
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <img src="images/logo.png" alt="" width="300" height="150">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="">Glowie Jewellery</a>
+      </p>
+      <b>Designed with ❣️ by <a href="mailto:ayesigapo@gmail.com">Paul Ayesiga</a></b>
+    </div>
+  </footer>
+  <!-- footer section -->
+</body>
+</html>

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.0/dist/tailwind.min.css" rel="stylesheet">
+       <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+ <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom.css">
+    <style>
+        .remove-btn {
+            background-color: #ff0000; /* Red color */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 4px 8px;
+            cursor: pointer;
+        }
+        .remove-btn:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <a href="index.html" class="text-2xl font-bold">
+                <img src="images/logo1.png" alt="logo" width="150" height="140"  />
+            </a>
+            <a href="checkout.html" class="text-blue-500 hover:text-blue-700">
+                checkout
+            </a>
+        </div>
+    </nav>
+
+
+    <!-- Cart Page -->
+    <main class="py-8 px-4">
+        <div class="container mx-auto">
+            <h1 class="text-2xl font-bold mb-6">Shopping Cart</h1>
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-4">
+                <table class="w-full">
+                    <thead>
+                        <tr>
+                            <th class="py-2 text-left">Product</th>
+                            <th class="py-2 text-left">Price</th>
+                            <th class="py-2 text-left">Quantity</th>
+                            <th class="py-2 text-left">Total</th>
+                            <th class="py-2 text-left"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example Cart Item -->
+                        <tr>
+                            <td class="py-4 flex items-center">
+                                <img src="custom/WhatsApp Image 2024-09-11 at 19.05.09(1).jpeg" alt="Elegant Necklace" class="w-16 h-16 object-cover mr-4">
+                                <span>Elegant Necklace</span>
+                            </td>
+                            <td class="py-4">UGX 18000</td>
+                            <td class="py-4">
+                                <input type="number" value="2" min="1" class="w-20 border border-gray-300 rounded-lg p-1">
+                            </td>
+                            <td class="py-4">ugx 36000</td>
+                            <td class="py-4">
+                                <button class="remove-btn">Remove</button>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td class="py-4 flex items-center">
+                                <img src="custom/WhatsApp Image 2024-09-11 at 19.09.27(9).jpeg" alt="Elegant Necklace" class="w-16 h-16 object-cover mr-4">
+                                <span>Elegant Ring Box</span>
+                            </td>
+                            <td class="py-4">UGX 23000</td>
+                            <td class="py-4">
+                                <input type="number" value="1" min="1" class="w-20 border border-gray-300 rounded-lg p-1">
+                            </td>
+                            <td class="py-4">ugx 23000</td>
+                            <td class="py-4">
+                                <button class="remove-btn">Remove</button>
+                            </td>
+                        </tr>
+                        <!-- Repeat for other items -->
+                    </tbody>
+                </table>
+                  <div class="mt-4 flex justify-end">
+                    <h5>Grand Total: UGX  59000</h5>
+                </div>
+                <div class="mt-4 flex justify-end">
+                    <a href="checkout.html" class="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">Proceed to Checkout</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+      <!-- shop section -->
+
+  <section class="shop_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Featured Products
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="custom/WhatsApp Image 2024-09-11 at 19.05.13(2).jpeg" alt="">
+              </div>
+              <div class="white-label">
+                <i class="fa fa-cart-plus"></i>
+                <i class="fa fa-heart-o"></i>
+                <i class="fa fa-share"></i>
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Earrings
+                </h6>
+                <h6>
+                  <span>
+                    ugx 12000
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  Hot
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="custom/WhatsApp Image 2024-09-11 at 19.09.27(6).jpeg" alt="">
+              </div>
+                <div class="white-label">
+                <i class="fa fa-cart-plus"></i>
+                <i class="fa fa-heart-o"></i>
+                <i class="fa fa-share"></i>
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Watch
+                </h6>
+                <h6>
+                  <span>
+                    ugx 45000
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  Hot
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="custom/WhatsApp Image 2024-09-11 at 19.09.26(3).jpeg" alt="">
+              </div>
+                <div class="white-label">
+                <i class="fa fa-cart-plus"></i>
+                <i class="fa fa-heart-o"></i>
+                <i class="fa fa-share"></i>
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Ear Ring
+                </h6>
+                <h6>
+                  
+                  <span>
+                    ugx 34000
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  Trending
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="custom/WhatsApp Image 2024-09-11 at 19.09.27(5).jpeg" alt="">
+              </div>
+                <div class="white-label">
+                <i class="fa fa-cart-plus"></i>
+                <i class="fa fa-heart-o"></i>
+                <i class="fa fa-share"></i>
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Watch
+                </h6>
+                <h6>
+                  
+                  <span>
+                    ugx 15000
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end shop section -->
+
+
+
+    <!-- info section -->
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row info_form_social_row">
+        <div class="col-md-8 col-lg-9">
+          <div class="info_form">
+            <form action="">
+              <input type="email" placeholder="Enter your email">
+              <button>
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="social_box">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row info_main_row">
+        <div class="col-md-6 col-lg-4">
+          <div class="info_links">
+            <h4>
+              Menu
+            </h4>
+            <div class="info_links_menu">
+              <a href="index.html">Home</a>
+              <a href="shop.html">Shop</a>
+              <a href="Contact.html">Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <h4>
+            Contact Us
+          </h4>
+          <div class="info_contact">
+            <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Kampala, Uganda
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Call +256 777 996719
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-envelope"></i>
+              <span>
+                glorianassuna715@gmail.com
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <img src="images/logo.png" alt="" width="300" height="150">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="">Glowie Jewellery</a>
+      </p>
+      <b>Designed with ❣️ by <a href="mailto:ayesigapo@gmail.com">Paul Ayesiga</a></b>
+    </div>
+  </footer>
+  <!-- footer section -->
+</body>
+</html>
